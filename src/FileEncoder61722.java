@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.util.LinkedList;
 
 
-public class FileEncoder61722 {
+public class FileEncoder61722 implements FileEncoder{
 	 
 	    public void encode(String sourceFile, String destinationFile, LinkedList<Character> key) throws IOException
 	    {
